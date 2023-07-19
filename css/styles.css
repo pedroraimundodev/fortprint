@@ -83,6 +83,7 @@ body {
   background-color: rgba(0, 0, 0, 0.7); /* Define a cor de fundo e o nível de transparência */
 }
 
+
 hr {
   box-sizing: content-box;
   height: 0;
@@ -6083,7 +6084,7 @@ a.close.disabled {
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #148f77 !important;
+  background-color: #a71d2a !important;
 }
 
 .bg-secondary {
@@ -10097,6 +10098,11 @@ h3 {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
   position: relative;
+}
+@media (min-width: 768px) {
+  .fundo {
+      background-attachment: fixed;
+  }
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
